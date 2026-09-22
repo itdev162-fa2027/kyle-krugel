@@ -1227,7 +1227,9 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Application >= 1.0.0",
-      "Microsoft.AspNetCore.OpenApi >= 9.0.20"
+      "Microsoft.AspNetCore.OpenApi >= 9.0.20",
+      "Microsoft.EntityFrameworkCore >= 9.0.10",
+      "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.10"
     ]
   },
   "packageFolders": {
@@ -1282,6 +1284,14 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[9.0.20, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[9.0.10, )"
+          },
+          "Microsoft.EntityFrameworkCore.Sqlite": {
+            "target": "Package",
+            "version": "[9.0.10, )"
           }
         },
         "imports": [
